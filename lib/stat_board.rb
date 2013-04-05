@@ -4,6 +4,7 @@ require "stat_board/reports/overall_report"
 require "stat_board/reports/monthly_report"
 require "stat_board/reports/weekly_report"
 require "stat_board/reports/daily_report"
+require "stat_board/reports/hourly_report"
 
 module StatBoard
   mattr_accessor :models, :title, :username, :password

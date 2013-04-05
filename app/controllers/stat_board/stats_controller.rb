@@ -9,7 +9,8 @@ module StatBoard
         Reports::OverallReport.new,
         Reports::MonthlyReport.new,
         Reports::WeeklyReport.new,
-        Reports::DailyReport.new
+        Reports::DailyReport.new,
+        Reports::HourlyReport.new
       ]
     end
 

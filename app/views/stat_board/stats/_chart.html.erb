@@ -1,4 +1,4 @@
-<div id="<%= report.slug %>" class="span4">
+<div id="<%= report.slug %>" class="span2">
   <table class="table table-striped">
     <thead>
       <tr>
@@ -9,8 +9,8 @@
     <tbody>
       <% StatBoard.models.each do |model| %>
         <tr>
-          <td class="span2"><%= model.to_s.pluralize %></td>
-          <td class="span2"><%= report.count(model) %></td>
+          <td class="span1"><%= model.to_s.pluralize %></td>
+          <td class="span1"><%= report.count(model) %></td>
         </tr>
       <% end %>
     </tbody>
