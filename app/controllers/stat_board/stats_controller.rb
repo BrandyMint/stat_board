@@ -8,7 +8,8 @@ module StatBoard
       @reports = [
         Reports::OverallReport.new,
         Reports::MonthlyReport.new,
-        Reports::WeeklyReport.new
+        Reports::WeeklyReport.new,
+        Reports::DailyReport.new
       ]
     end
 
